@@ -1,3 +1,4 @@
-[submodule "kdolib"]
-	path = kdolib
-	url = https://github.com/kodokaii/kdolib_cpp.git
+[submodule "kdo_cpplib"]
+	path = kdo_cpplib
+	url = git@github.com:kodokaii/kdo_cpplib.git
+	branch = master

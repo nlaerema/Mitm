@@ -13,7 +13,7 @@ Mitm is a simple command-line TCP proxy tool that acts as a "man-in-the-middle" 
 To clone and build the project:
 
 ```sh
-git clone git@github.com:kodokaii/Mitm.git --recursive
+git clone git@github.com:nlaerema/Mitm.git
 cd Mitm
 make
 ```

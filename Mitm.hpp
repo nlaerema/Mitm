@@ -1,19 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Mitm.hpp                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: nlaerema <nlaerema@student.42lehavre.fr>   +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2024/03/17 23:10:07 by nlaerema         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #pragma once
 
 #include <sys/epoll.h>
-#include "kdolib/kdolib.hpp"
+#include "kdo_cpplib/kdo_cpplib.hpp"
 
 class Mitm: protected TcpClient, protected TcpServer
 {
